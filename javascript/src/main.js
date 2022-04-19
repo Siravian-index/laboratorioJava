@@ -1,7 +1,7 @@
-import sql from './db/db'
+import test from './view/test.js'
 
 function main() {
-  sql()
+  test()
 }
 
 main()
