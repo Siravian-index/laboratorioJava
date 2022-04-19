@@ -26,24 +26,8 @@ public class Respuesta {
 		return respuesta;
 	}
 
-	public void setRespuesta(String respuesta) {
-		this.respuesta = respuesta;
-	}
-
 	public Boolean getCorrecta() {
 		return correcta;
-	}
-
-	public void setCorrecta(Boolean correcta) {
-		this.correcta = correcta;
-	}
-
-	public Long getPreguntaId() {
-		return preguntaId;
-	}
-
-	public void setPreguntaId(Long preguntaId) {
-		this.preguntaId = preguntaId;
 	}
 
 	@Override

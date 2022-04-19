@@ -35,32 +35,16 @@ public class Partida {
 		return puntosTotales;
 	}
 
-	public void setPuntosTotales(Integer puntosTotales) {
-		this.puntosTotales = puntosTotales;
-	}
-
 	public Boolean getGanada() {
 		return ganada;
-	}
-
-	public void setGanada(Boolean ganada) {
-		this.ganada = ganada;
 	}
 
 	public Long getJugadoresId() {
 		return jugadoresId;
 	}
 
-	public void setJugadoresId(Long jugadoresId) {
-		this.jugadoresId = jugadoresId;
-	}
-
 	public Long getCategoriaIdAlcanzada() {
 		return categoriaIdAlcanzada;
-	}
-
-	public void setCategoriaIdAlcanzada(Long categoriaIdAlcanzada) {
-		this.categoriaIdAlcanzada = categoriaIdAlcanzada;
 	}
 
 	@Override

@@ -22,10 +22,6 @@ public class Premio {
 		return puntos;
 	}
 
-	public void setPuntos(Integer puntos) {
-		this.puntos = puntos;
-	}
-
 	@Override
 	public String toString() {
 		return "Premio [id=" + id + ", puntos=" + puntos + "]";

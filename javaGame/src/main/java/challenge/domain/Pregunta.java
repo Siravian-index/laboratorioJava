@@ -24,18 +24,6 @@ public class Pregunta {
 		return pregunta;
 	}
 
-	public void setPregunta(String pregunta) {
-		this.pregunta = pregunta;
-	}
-
-	public Long getCategoriaId() {
-		return categoriaId;
-	}
-
-	public void setCategoriaId(Long categoriaId) {
-		this.categoriaId = categoriaId;
-	}
-
 	@Override
 	public String toString() {
 		return "Pregunta [id=" + id + ", pregunta=" + pregunta + ", categoriaId=" + categoriaId + "]";

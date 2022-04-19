@@ -20,20 +20,8 @@ public class Categoria {
 		this.id = id;
 	}
 
-	public Nivel getNivel() {
-		return nivel;
-	}
-
-	public void setNivel(Nivel nivel) {
-		this.nivel = nivel;
-	}
-
 	public Long getPuntosId() {
 		return puntosId;
-	}
-
-	public void setPuntosId(Long puntosId) {
-		this.puntosId = puntosId;
 	}
 
 	@Override

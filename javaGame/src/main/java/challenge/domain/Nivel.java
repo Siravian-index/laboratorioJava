@@ -14,8 +14,4 @@ public enum Nivel {
 		this.nivel = nivel;
 	}
 
-	public String getNivel() {
-		return nivel;
-	}
-
 }
