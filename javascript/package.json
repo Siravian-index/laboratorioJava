@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "postgres": "^3.0.6"
+    "pg": "^8.7.3"
   },
   "type": "module"
 }
