@@ -1,0 +1,16 @@
+{
+  "name": "laboratorio",
+  "version": "1.0.0",
+  "description": "actividad laboratorio",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "postgres": "^3.0.6"
+  },
+  "type": "module"
+}
