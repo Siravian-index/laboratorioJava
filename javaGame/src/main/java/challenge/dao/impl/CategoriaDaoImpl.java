@@ -2,6 +2,7 @@ package challenge.dao.impl;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.sql.Statement;
 
 import challenge.dao.CategoriaDao;
@@ -10,7 +11,7 @@ import challenge.domain.Categoria;
 import challenge.domain.Nivel;
 import challenge.exception.GenericException;
 
-public class CategoriaDaoImpl implements CategoriaDao {
+public class CategoriaDaoImpl  implements CategoriaDao {
 
 	@Override
 	public Categoria getByLevel(Nivel nivel) throws GenericException {
